@@ -102,5 +102,5 @@ class Solution {
 | 2 | Best Time to Buy/Sell Stock | One pass, track min | O(n) | O(1) | ✅ |
 | 3 | Move Zeroes | Two pointer | O(n) | O(1) | ✅ |
 
-**Energy level:** __ / 5
-**One thing to improve tomorrow:** _______________
+**Energy level:** 2 / 5
+**One thing to improve tomorrow:** Lets write clean code better by 1%
