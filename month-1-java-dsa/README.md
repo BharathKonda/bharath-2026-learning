@@ -1,8 +1,8 @@
 # Month 1 — Modern Java 21 + DSA + AWS
 
-# Week 1 - Day 1 - LeetCode Solutions
+# Week 1 — Day 1 — LeetCode Pattern Notes
 **Date:** June 7, 2026
-**Pattern focus:** Arrays - Two Pointer, One Pass, Two Pointer
+**Problems solved:** 3/3 ✅
 
 ---
 
@@ -26,7 +26,13 @@ class Solution {
 }
 ```
 
-**Key learning:** When finding a pair/complement in an array → reach for HashMap first.
+> 💡 **Pattern to remember:**
+> *"When you need to find a complement or a pair in an array — reach for a HashMap first."*
+>
+> **Same pattern appears in:**
+> - Group Anagrams
+> - Subarray Sum Equals K
+> - Two Sum II, 4Sum, 3Sum
 
 ---
 
@@ -48,7 +54,13 @@ class Solution {
 }
 ```
 
-**Key learning:** One pass, track the best seen so far. No need to look back.
+> 💡 **Pattern to remember:**
+> *"One pass, track the best seen so far. No need to look back."*
+>
+> **Same pattern appears in:**
+> - Maximum Subarray
+> - Jump Game
+> - Trapping Rain Water
 
 ---
 
@@ -72,12 +84,23 @@ class Solution {
 }
 ```
 
-**Key learning:** One pointer scans, one tracks where valid elements land. Fill rest after.
+> 💡 **Pattern to remember:**
+> *"Two pointers — one scans, one tracks where valid elements land. Fill the rest after."*
+>
+> **Same pattern appears in:**
+> - Remove Duplicates
+> - Remove Element
+> - Sort Colors
 
 ---
 
 ## Day 1 Summary
-- Problems solved: 3/3 ✅
-- Patterns covered: HashMap, One Pass, Two Pointer
-- Energy level: 2/5
-- One thing to improve tomorrow: 1% bettermenbt in clean code
+
+| # | Problem | Pattern | Time | Space | Status |
+|---|---------|---------|------|-------|--------|
+| 1 | Two Sum | HashMap complement | O(n) | O(n) | ✅ |
+| 2 | Best Time to Buy/Sell Stock | One pass, track min | O(n) | O(1) | ✅ |
+| 3 | Move Zeroes | Two pointer | O(n) | O(1) | ✅ |
+
+**Energy level:** __ / 5
+**One thing to improve tomorrow:** _______________
