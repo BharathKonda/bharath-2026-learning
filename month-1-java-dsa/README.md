@@ -79,5 +79,5 @@ class Solution {
 ## Day 1 Summary
 - Problems solved: 3/3 ✅
 - Patterns covered: HashMap, One Pass, Two Pointer
-- Energy level: __/5
-- One thing to improve tomorrow: __
+- Energy level: 2/5
+- One thing to improve tomorrow: 1% bettermenbt in clean code
